@@ -1,0 +1,29 @@
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 22
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 22
+[03-Apr-2024 13:02:46 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:03:03 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:04:00 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:04:13 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:05:58 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:06:12 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:06:14 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:06:15 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:06:15 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:07:31 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 20
+[03-Apr-2024 13:07:31 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:07:56 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 20
+[03-Apr-2024 13:08:02 UTC] PHP Warning:  Undefined array key "b" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:08:12 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:08:42 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:08:54 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:13:15 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:13:45 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:17:56 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:19:51 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:20:49 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:21:06 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 13:24:58 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[03-Apr-2024 16:35:54 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21
+[06-Apr-2024 18:43:41 UTC] PHP Warning:  Undefined array key "plainPassword" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/Messages/messages.php on line 21

@@ -1,0 +1,923 @@
+[11-Mar-2024 00:00:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function QueryDatabase_Serializable() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:63
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(29): HasPermission('Manage_Users')
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 63
+[11-Mar-2024 00:01:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function QueryDatabase_Serializable() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:63
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(33): HasPermission('Manage_Users')
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 63
+[11-Mar-2024 00:02:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function QueryDatabase_Serializable() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:63
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(30): HasPermission('Manage_Users')
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 63
+[11-Mar-2024 00:07:44 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, array given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:65
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(65): error_log(Array)
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(30): HasPermission('Manage_Users')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:08:12 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, array given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:65
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(65): error_log(Array)
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(30): HasPermission('Manage_Users')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:08:12 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, array given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:65
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(65): error_log(Array)
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(30): HasPermission('Manage_Users')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:08:13 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #1 ($message) must be of type string, array given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:65
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(65): error_log(Array)
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(30): HasPermission('Manage_Users')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:08 UTC] 
+[11-Mar-2024 00:09:08 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:11 UTC] 
+[11-Mar-2024 00:09:11 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:09:12 UTC] 
+[11-Mar-2024 00:09:12 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 66
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:26 UTC] Manage_Roles
+[11-Mar-2024 00:10:26 UTC] Manage_Users
+[11-Mar-2024 00:10:26 UTC] Messaging
+[11-Mar-2024 00:10:27 UTC] Manage_Roles
+[11-Mar-2024 00:10:27 UTC] Manage_Users
+[11-Mar-2024 00:10:27 UTC] Messaging
+[11-Mar-2024 00:10:27 UTC] Manage_Roles
+[11-Mar-2024 00:10:27 UTC] Manage_Users
+[11-Mar-2024 00:10:27 UTC] Messaging
+[11-Mar-2024 00:10:27 UTC] Manage_Roles
+[11-Mar-2024 00:10:27 UTC] Manage_Users
+[11-Mar-2024 00:10:27 UTC] Messaging
+[11-Mar-2024 00:10:44 UTC] Manage_Roles
+[11-Mar-2024 00:10:44 UTC] Manage_Users
+[11-Mar-2024 00:10:44 UTC] Messaging
+[11-Mar-2024 00:10:44 UTC] Manage_Roles
+[11-Mar-2024 00:10:44 UTC] Manage_Users
+[11-Mar-2024 00:10:44 UTC] Messaging
+[11-Mar-2024 00:10:44 UTC] Manage_Roles
+[11-Mar-2024 00:10:44 UTC] Manage_Users
+[11-Mar-2024 00:10:44 UTC] Messaging
+[11-Mar-2024 00:11:36 UTC] 0
+[11-Mar-2024 00:11:36 UTC] 1
+[11-Mar-2024 00:11:36 UTC] 2
+[11-Mar-2024 00:11:36 UTC] 0
+[11-Mar-2024 00:11:36 UTC] 1
+[11-Mar-2024 00:11:36 UTC] 2
+[11-Mar-2024 00:11:36 UTC] 0
+[11-Mar-2024 00:11:36 UTC] 1
+[11-Mar-2024 00:11:36 UTC] 2
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 0Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 1Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 2Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 0Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 1Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 2Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 0Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 1Array
+[11-Mar-2024 00:12:08 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:12:08 UTC] 2Array
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 00:13:06 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 65
+[11-Mar-2024 02:36:34 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 02:38:19 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 02:38:46 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 63
+[11-Mar-2024 02:38:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'Array' for column 'uid' at row 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Permis...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('Call Get_Permis...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(63): QueryDatabase_Serializable('Call Get_Permis...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(33): HasPermission('Manage_Users')
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:23:00 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 05:23:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 15:03:37 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 15:03:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 19:34:16 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[11-Mar-2024 19:34:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 01:23:06 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 01:23:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 01:23:12 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 01:23:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 02:48:13 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 02:48:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 04:26:16 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 04:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 16:00:54 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 16:00:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 22:38:00 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 22:38:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 23:59:16 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[13-Mar-2024 23:59:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 01:19:28 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 01:19:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 16:02:19 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 16:02:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 17:05:33 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 17:05:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 21:41:37 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[14-Mar-2024 21:41:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 02:23:17 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 02:23:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 02:51:10 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 02:51:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 16:02:29 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 16:02:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 16:52:21 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 16:52:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 18:27:28 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 18:27:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 18:32:01 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 18:32:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 22:01:57 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[15-Mar-2024 22:01:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 02:08:56 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 02:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 16:24:21 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 16:24:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 16:34:33 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:34 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:35 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:35 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:34:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:35:22 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:35:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:03 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:32 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:34 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:35 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:37:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:39:58 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:39:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:10 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:11 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:33 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:41:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:41:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsLoggedIn() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 5
+[16-Mar-2024 16:42:03 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:42:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:16 UTC] PHP Warning:  require_once(/../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:18 UTC] PHP Warning:  require_once(/../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:18 UTC] PHP Warning:  require_once(/../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:5
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 5
+[16-Mar-2024 16:43:58 UTC] PHP Warning:  require_once(/../ManageUsers/manageUsers_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:43:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../ManageUsers/manageUsers_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:44:12 UTC] PHP Warning:  require_once(/../Login/login_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:44:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../Login/login_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:45:36 UTC] PHP Warning:  require_once(../../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:39 UTC] PHP Warning:  require_once(../../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:40 UTC] PHP Warning:  require_once(../../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:41 UTC] PHP Warning:  require_once(../../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:45:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:02 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:02 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:05 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:13 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:47:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:21 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:21 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:32 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:49 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:50 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:50 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:48:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:50:52 UTC] PHP Warning:  require_once(../ManageRoles/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:50:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../ManageRoles/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:07 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:07 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:09 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:52:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:6
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 6
+[16-Mar-2024 16:57:51 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:52 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:54 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:58 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:59 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:57:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:58:02 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:58:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:58:03 UTC] PHP Warning:  require_once(../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:58:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php:2
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php(6): require_once()
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once('/home/ndobek10/...')
+#2 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/manageRoles_util.php on line 2
+[16-Mar-2024 16:59:36 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:40 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:59:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../Common/manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:15 UTC] PHP Warning:  require_once(../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:16 UTC] PHP Warning:  require_once(../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:26 UTC] PHP Warning:  require_once(../../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:28 UTC] PHP Warning:  require_once(../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:29 UTC] PHP Warning:  require_once(../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:00:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:03 UTC] PHP Warning:  require_once(/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:13 UTC] PHP Warning:  require_once(/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:14 UTC] PHP Warning:  require_once(/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:16 UTC] PHP Warning:  require_once(/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:05:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/index.php/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:06:45 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:06:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:08:24 UTC] PHP Warning:  require_once(/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:08:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/~ndobek10/danger_breakfast/cmpe2550/labs/lab_02/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:16 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:17 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:29 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:30 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:13:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/../manageRoles_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:8
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 8
+[16-Mar-2024 17:16:17 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../ManageUsers/manageUsers_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:16:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../ManageUsers/manageUsers_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:16:30 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../ManageUsers/manageUsers_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 17:16:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common../ManageUsers/manageUsers_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 19:16:53 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 19:16:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 20:29:52 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[16-Mar-2024 20:29:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[17-Mar-2024 02:05:51 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[17-Mar-2024 02:05:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[18-Mar-2024 16:32:08 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[18-Mar-2024 16:32:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[18-Mar-2024 17:57:28 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[18-Mar-2024 17:57:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[22-Mar-2024 03:25:58 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[22-Mar-2024 03:25:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/index.php on line 30
+[31-Mar-2024 02:52:14 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[31-Mar-2024 02:52:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[02-Apr-2024 23:34:39 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[02-Apr-2024 23:34:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 02:44:47 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 02:44:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 12:43:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 16:35:42 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 16:35:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 16:35:44 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[03-Apr-2024 16:35:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[06-Apr-2024 18:43:23 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[06-Apr-2024 18:43:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 01:36:37 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 01:36:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 03:02:10 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 03:02:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 03:44:29 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 03:44:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 05:17:41 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 05:17:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 21:06:44 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 21:06:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 22:16:57 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[07-Apr-2024 22:16:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[08-Apr-2024 18:03:11 UTC] PHP Warning:  Undefined array key "currentUser" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30
+[08-Apr-2024 18:03:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_03/index.php on line 30

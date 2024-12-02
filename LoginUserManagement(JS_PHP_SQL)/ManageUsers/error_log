@@ -1,0 +1,6 @@
+[16-Mar-2024 16:44:11 UTC] PHP Warning:  require_once(/../Login/login_util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7
+[16-Mar-2024 16:44:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../Login/login_util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php:7
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/ManageUsers/manageUsers.php(3): require_once()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/util.php on line 7

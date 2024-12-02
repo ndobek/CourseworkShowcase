@@ -1,0 +1,855 @@
+[10-Mar-2024 20:52:10 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 20:57:15 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 22:29:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: PROCEDURE ndobek10_lab_DB.Add_Credentials does not exist in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Add_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(59): QueryDatabase('Call Add_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(63): NonQueryDatabase('Call Add_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(16): TryRegister()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[10-Mar-2024 22:29:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: PROCEDURE ndobek10_lab_DB.Add_Credentials does not exist in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Add_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(59): QueryDatabase('Call Add_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(63): NonQueryDatabase('Call Add_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(16): TryRegister()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[10-Mar-2024 22:30:16 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 23:40:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect number of arguments for PROCEDURE ndobek10_lab_DB.Add_Credentials; expected 3, got 2 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Add_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(59): QueryDatabase('Call Add_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(63): NonQueryDatabase('Call Add_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(16): TryRegister()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[10-Mar-2024 23:41:41 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 23:42:32 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 23:45:25 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[10-Mar-2024 23:45:34 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 03:44:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'User ID\',
+u.username as \'Username\',
+u.password as \'Hashed Password\',
+r.na' at line 2 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT \nu.user_...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('SELECT \nu.user_...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(124): QueryDatabase_Serializable('SELECT \nu.user_...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 03:45:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_roles urON ur.user_id = u.user_idJOIN roles r ON r.role_id = ur.role_id' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT u.user_i...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('SELECT u.user_i...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(124): QueryDatabase_Serializable('SELECT u.user_i...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 04:28:01 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 04:31:07 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 04:38:09 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 04:41:04 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:23:10 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:137
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 137
+[11-Mar-2024 05:23:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:137
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 137
+[11-Mar-2024 05:23:29 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:137
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 137
+[11-Mar-2024 05:23:39 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:137
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(20): GetAllUsers()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 137
+[11-Mar-2024 05:24:53 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:25:38 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:25:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:25:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 147
+[11-Mar-2024 05:26:57 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:26:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:26:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 147
+[11-Mar-2024 05:27:51 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:27:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:27:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect number of arguments for PROCEDURE ndobek10_lab_DB.Get_Credentials_By_ID; expected 1, got 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(144): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(22): TryDeleteUser()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:28:07 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:28:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:28:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect number of arguments for PROCEDURE ndobek10_lab_DB.Get_Credentials_By_ID; expected 1, got 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(144): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(22): TryDeleteUser()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:29:39 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:29:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:29:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect number of arguments for PROCEDURE ndobek10_lab_DB.Get_Credentials_By_ID; expected 1, got 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(144): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(22): TryDeleteUser()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:30:30 UTC] PHP Warning:  Undefined array key "data" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:30:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 144
+[11-Mar-2024 05:30:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'user' at row 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(144): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(22): TryDeleteUser()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:32:43 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:32:43 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:32:51 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:33:22 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:33:51 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:34:04 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:34:49 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:34:51 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:34:51 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 61
+[11-Mar-2024 05:57:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'DISTINCTr.name' in 'field list' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT DISTINCT...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('SELECT DISTINCT...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(175): QueryDatabase_Serializable('SELECT DISTINCT...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(24): GetSubordinateRoles()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[11-Mar-2024 05:57:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'DISTINCTr.name' in 'field list' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT DISTINCT...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(72): QueryDatabase('SELECT DISTINCT...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(175): QueryDatabase_Serializable('SELECT DISTINCT...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(24): GetSubordinateRoles()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[13-Mar-2024 03:20:47 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 201
+[13-Mar-2024 03:48:21 UTC] PHP Warning:  Undefined variable $user in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 28
+[13-Mar-2024 03:48:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 28
+[13-Mar-2024 03:48:24 UTC] PHP Warning:  Undefined variable $user in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 28
+[13-Mar-2024 03:48:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 28
+[13-Mar-2024 03:49:33 UTC] PHP Warning:  Undefined array key "username" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 183
+[13-Mar-2024 03:49:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'user' at row 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(34): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(183): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): TryEditRole()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[13-Mar-2024 03:49:46 UTC] PHP Warning:  Undefined array key "username" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 183
+[13-Mar-2024 03:49:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'user' at row 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(34): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(183): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(27): TryEditRole()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[13-Mar-2024 03:51:32 UTC] PHP Warning:  Undefined array key "username" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 185
+[13-Mar-2024 03:51:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'user' at row 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('Call Get_Creden...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('Call Get_Creden...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(33): QueryDatabase_Serializable('Call Get_Creden...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(185): GetUser(NULL)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(26): TryEditRole()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[13-Mar-2024 03:52:48 UTC] PHP Warning:  Undefined array key "user_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 185
+[13-Mar-2024 03:53:43 UTC] PHP Warning:  Undefined array key "user_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 185
+[13-Mar-2024 03:55:00 UTC] PHP Warning:  Undefined array key "user_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 185
+[13-Mar-2024 03:55:37 UTC] PHP Warning:  Undefined array key "user_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 185
+[14-Mar-2024 00:00:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM roles r' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT r.role_i...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('SELECT r.role_i...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(250): QueryDatabase_Serializable('SELECT r.role_i...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 00:05:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'r.desc' in 'field list' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT r.role_i...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('SELECT r.role_i...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(253): QueryDatabase_Serializable('SELECT r.role_i...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 00:06:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM roles r' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT r.role_i...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('SELECT r.role_i...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(251): QueryDatabase_Serializable('SELECT r.role_i...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 00:22:02 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 226
+[14-Mar-2024 00:22:30 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 226
+[14-Mar-2024 00:25:36 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 226
+[14-Mar-2024 00:25:42 UTC] PHP Warning:  Undefined array key 0 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 226
+[14-Mar-2024 01:55:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 281
+[14-Mar-2024 02:00:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'User' in 'where clause' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(271): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(32): TryAddRole()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 02:03:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'User' in 'field list' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('INSERT into rol...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(60): QueryDatabase('INSERT into rol...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(278): NonQueryDatabase('INSERT into rol...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(32): TryAddRole()
+#4 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 03:44:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r.role_id as 'role_id' FROM roles r WHERE r.rank > 0' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT DISTINCT...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('SELECT DISTINCT...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(254): QueryDatabase_Serializable('SELECT DISTINCT...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(345): GetSubordinateRoles(false)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[14-Mar-2024 03:44:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r.role_id as 'role_id' FROM roles r WHERE r.rank > 0' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT DISTINCT...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(73): QueryDatabase('SELECT DISTINCT...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(254): QueryDatabase_Serializable('SELECT DISTINCT...')
+#3 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(345): GetSubordinateRoles(false)
+#4 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#5 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 15:15:32 UTC] PHP Warning:  Undefined array key "name" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 307
+[15-Mar-2024 15:15:58 UTC] PHP Warning:  Undefined array key "name" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 307
+[15-Mar-2024 15:15:58 UTC] PHP Warning:  Undefined array key "name" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 134
+[15-Mar-2024 15:16:57 UTC] PHP Warning:  Undefined array key "name" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 307
+[15-Mar-2024 15:16:57 UTC] PHP Warning:  Undefined array key "name" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 134
+[15-Mar-2024 15:17:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE role_id LIKE '107'' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('UPDATE roles SE...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(337): QueryDatabase('UPDATE roles SE...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(34): TryEditRole()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 15:17:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE role_id = 107' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('UPDATE roles SE...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(337): QueryDatabase('UPDATE roles SE...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(34): TryEditRole()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 15:18:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE role_id = 107' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('UPDATE roles SE...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(337): QueryDatabase('UPDATE roles SE...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(34): TryEditRole()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 15:18:46 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 337
+[15-Mar-2024 16:02:36 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:02:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ndobek10_lab_DB.role_permission' doesn't exist in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:04:31 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:04:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ndobek10_lab_DB.role_permission' doesn't exist in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:04:40 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:04:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ndobek10_lab_DB.role_permission' doesn't exist in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:06:04 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:06:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'where clause' in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:07:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:07:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:08:27 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:08:27 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:410
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 410
+[15-Mar-2024 16:52:29 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:52:29 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:410
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 410
+[15-Mar-2024 16:56:42 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:56:42 UTC] PHP Warning:  Array to string conversion in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:56:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND permission LIKE 'Array'' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:58:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:58:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND permission LIKE 'Manage_Roles'' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 16:58:51 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 16:58:51 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:410
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#1 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 410
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:15:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:17:36 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:18:35 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:15 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:21 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:21:50 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:24:59 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:24:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND permission LIKE 'Manage_Roles'' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:25:18 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:26:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:26:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND permission LIKE 'Manage_Roles'' at line 1 in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php:45
+Stack trace:
+#0 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php(45): mysqli->query('SELECT * FROM r...')
+#1 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(409): QueryDatabase('SELECT * FROM r...')
+#2 /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php(28): GetAllRoles()
+#3 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/database.php on line 45
+[15-Mar-2024 17:27:57 UTC] PHP Parse error:  syntax error, unexpected variable "$q" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:11 UTC] ROLE ID: 
+[15-Mar-2024 17:28:11 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:14 UTC] ROLE ID: 
+[15-Mar-2024 17:28:14 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:28:16 UTC] ROLE ID: 
+[15-Mar-2024 17:28:16 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:28 UTC] ROLE ID: 
+[15-Mar-2024 17:29:28 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 408
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:29:52 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:29:52 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[15-Mar-2024 17:30:02 UTC] PHP Warning:  Undefined array key "role_id" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 407
+[15-Mar-2024 17:30:02 UTC] ROLE ID: 
+[16-Mar-2024 02:11:46 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:11:46 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:12:17 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:12:17 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:12:19 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:12:19 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:13:33 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:13:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:17:32 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:17:32 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:19:08 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:19:08 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:21:33 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:21:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:22:22 UTC] PHP Warning:  Undefined array key "permissions" in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:22:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 346
+[16-Mar-2024 02:23:31 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:31 UTC] DID SOMETHING
+[16-Mar-2024 02:23:37 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:37 UTC] DID SOMETHING
+[16-Mar-2024 02:23:37 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:37 UTC] DID SOMETHING
+[16-Mar-2024 02:23:37 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:37 UTC] DID SOMETHING
+[16-Mar-2024 02:23:50 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:50 UTC] DID SOMETHING
+[16-Mar-2024 02:23:50 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:50 UTC] DID SOMETHING
+[16-Mar-2024 02:23:58 UTC] TRIED SOMETHING
+[16-Mar-2024 02:23:58 UTC] DID SOMETHING
+[16-Mar-2024 02:24:06 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:06 UTC] DID SOMETHING
+[16-Mar-2024 02:24:28 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:28 UTC] DID SOMETHING
+[16-Mar-2024 02:24:28 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:28 UTC] DID SOMETHING
+[16-Mar-2024 02:24:28 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:28 UTC] DID SOMETHING
+[16-Mar-2024 02:24:59 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:59 UTC] DID SOMETHING
+[16-Mar-2024 02:24:59 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:59 UTC] DID SOMETHING
+[16-Mar-2024 02:24:59 UTC] TRIED SOMETHING
+[16-Mar-2024 02:24:59 UTC] DID SOMETHING
+[16-Mar-2024 02:25:46 UTC] TRIED SOMETHING
+[16-Mar-2024 02:25:46 UTC] DID SOMETHING
+[16-Mar-2024 02:25:46 UTC] TRIED SOMETHING
+[16-Mar-2024 02:25:46 UTC] DID SOMETHING
+[16-Mar-2024 02:25:46 UTC] TRIED SOMETHING
+[16-Mar-2024 02:25:46 UTC] DID SOMETHING
+[16-Mar-2024 02:26:10 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:10 UTC] DID SOMETHING
+[16-Mar-2024 02:26:10 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:10 UTC] DID SOMETHING
+[16-Mar-2024 02:26:10 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:10 UTC] DID SOMETHING
+[16-Mar-2024 02:26:33 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:33 UTC] DID SOMETHING
+[16-Mar-2024 02:26:33 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:33 UTC] DID SOMETHING
+[16-Mar-2024 02:26:33 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:33 UTC] DID SOMETHING
+[16-Mar-2024 02:26:39 UTC] TRIED BELETING
+[16-Mar-2024 02:26:39 UTC] BELETED
+[16-Mar-2024 02:26:39 UTC] TRIED BELETING
+[16-Mar-2024 02:26:39 UTC] BELETED
+[16-Mar-2024 02:26:39 UTC] TRIED BELETING
+[16-Mar-2024 02:26:39 UTC] BELETED
+[16-Mar-2024 02:26:45 UTC] TRIED BELETING
+[16-Mar-2024 02:26:45 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:45 UTC] DID SOMETHING
+[16-Mar-2024 02:26:45 UTC] TRIED BELETING
+[16-Mar-2024 02:26:51 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:51 UTC] DID SOMETHING
+[16-Mar-2024 02:26:51 UTC] TRIED BELETING
+[16-Mar-2024 02:26:51 UTC] BELETED
+[16-Mar-2024 02:26:51 UTC] TRIED SOMETHING
+[16-Mar-2024 02:26:51 UTC] DID SOMETHING
+[16-Mar-2024 02:27:34 UTC] TRIED BELETING
+[16-Mar-2024 02:27:34 UTC] TRIED SOMETHING
+[16-Mar-2024 02:27:34 UTC] DID SOMETHING
+[16-Mar-2024 02:27:42 UTC] TRIED BELETING
+[16-Mar-2024 02:27:42 UTC] TRIED BELETING
+[16-Mar-2024 02:27:42 UTC] TRIED BELETING
+[16-Mar-2024 02:27:55 UTC] TRIED SOMETHING
+[16-Mar-2024 02:27:55 UTC] DID SOMETHING
+[16-Mar-2024 02:27:55 UTC] TRIED BELETING
+[16-Mar-2024 02:27:55 UTC] TRIED BELETING
+[16-Mar-2024 02:28:04 UTC] TRIED BELETING
+[16-Mar-2024 02:28:04 UTC] BELETED
+[16-Mar-2024 02:28:04 UTC] TRIED BELETING
+[16-Mar-2024 02:28:04 UTC] TRIED BELETING
+[16-Mar-2024 02:28:13 UTC] TRIED BELETING
+[16-Mar-2024 02:28:13 UTC] TRIED BELETING
+[16-Mar-2024 02:28:13 UTC] TRIED BELETING
+[16-Mar-2024 02:28:18 UTC] TRIED BELETING
+[16-Mar-2024 02:28:18 UTC] TRIED BELETING
+[16-Mar-2024 02:28:18 UTC] TRIED BELETING
+[16-Mar-2024 02:29:30 UTC] TRIED BELETING
+[16-Mar-2024 02:29:30 UTC] TRIED BELETING
+[16-Mar-2024 02:29:30 UTC] TRIED BELETING
+[16-Mar-2024 02:29:39 UTC] TRIED BELETING
+[16-Mar-2024 02:29:39 UTC] TRIED SOMETHING
+[16-Mar-2024 02:29:39 UTC] DID SOMETHING
+[16-Mar-2024 02:29:43 UTC] TRIED BELETING
+[16-Mar-2024 02:29:43 UTC] TRIED BELETING
+[16-Mar-2024 02:29:43 UTC] TRIED SOMETHING
+[16-Mar-2024 02:29:43 UTC] DID SOMETHING
+[16-Mar-2024 02:29:48 UTC] TRIED BELETING
+[16-Mar-2024 02:29:48 UTC] TRIED BELETING
+[16-Mar-2024 02:29:48 UTC] TRIED SOMETHING
+[16-Mar-2024 02:29:48 UTC] DID SOMETHING
+[16-Mar-2024 02:29:49 UTC] TRIED BELETING
+[16-Mar-2024 02:29:49 UTC] TRIED BELETING
+[16-Mar-2024 02:29:49 UTC] TRIED BELETING
+[16-Mar-2024 02:31:43 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:43 UTC] DID SOMETHING
+[16-Mar-2024 02:31:44 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:44 UTC] DID SOMETHING
+[16-Mar-2024 02:31:44 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:47 UTC] DID SOMETHING
+[16-Mar-2024 02:31:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:47 UTC] DID SOMETHING
+[16-Mar-2024 02:31:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:47 UTC] DID SOMETHING
+[16-Mar-2024 02:31:49 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:49 UTC] DID SOMETHING
+[16-Mar-2024 02:31:49 UTC] TRIED SOMETHING
+[16-Mar-2024 02:31:49 UTC] DID SOMETHING
+[16-Mar-2024 02:31:49 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:01 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:01 UTC] DID SOMETHING
+[16-Mar-2024 02:32:01 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:01 UTC] DID SOMETHING
+[16-Mar-2024 02:32:01 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:09 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:09 UTC] DID SOMETHING
+[16-Mar-2024 02:32:09 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:09 UTC] DID SOMETHING
+[16-Mar-2024 02:32:09 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:14 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:19 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:19 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:19 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:27 UTC] TRIED BELETING
+[16-Mar-2024 02:32:27 UTC] BELETED
+[16-Mar-2024 02:32:27 UTC] TRIED BELETING
+[16-Mar-2024 02:32:27 UTC] BELETED
+[16-Mar-2024 02:32:27 UTC] TRIED BELETING
+[16-Mar-2024 02:32:27 UTC] BELETED
+[16-Mar-2024 02:32:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:47 UTC] DID SOMETHING
+[16-Mar-2024 02:32:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:47 UTC] DID SOMETHING
+[16-Mar-2024 02:32:47 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:55 UTC] TRIED SOMETHING
+[16-Mar-2024 02:32:56 UTC] TRIED SOMETHING
+[16-Mar-2024 02:33:21 UTC] TRIED SOMETHING
+[16-Mar-2024 02:34:47 UTC] Duplicate entry '107-Manage_Roles' for key 'PRIMARY'
+[16-Mar-2024 02:35:14 UTC] Duplicate entry '100-Manage_Roles' for key 'PRIMARY'
+[16-Mar-2024 16:24:26 UTC] PHP Fatal error:  Cannot redeclare TryLogin() (previously declared in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:50) in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/ManageUsers/manageUsers_util.php on line 16
+[16-Mar-2024 16:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAllUsers() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 19
+[16-Mar-2024 17:17:42 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Commonutil.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 4
+[16-Mar-2024 17:17:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Commonutil.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Common/server.php on line 4
+[03-Apr-2024 16:35:52 UTC] theboss
+[03-Apr-2024 16:35:52 UTC] theboss
+[06-Apr-2024 18:43:39 UTC] theboss
+[06-Apr-2024 18:43:39 UTC] theboss
+[07-Apr-2024 01:36:59 UTC] theboss
+[07-Apr-2024 01:36:59 UTC] theboss
+[07-Apr-2024 03:02:17 UTC] theboss
+[07-Apr-2024 03:02:17 UTC] theboss
+[07-Apr-2024 03:44:34 UTC] theboss
+[07-Apr-2024 03:44:34 UTC] theboss
+[07-Apr-2024 03:47:53 UTC] malum
+[07-Apr-2024 03:47:53 UTC] malum
+[07-Apr-2024 03:49:04 UTC] theboss
+[07-Apr-2024 03:49:04 UTC] theboss
+[07-Apr-2024 05:17:52 UTC] theboss
+[07-Apr-2024 05:17:52 UTC] theboss
+[07-Apr-2024 05:24:52 UTC] malum
+[07-Apr-2024 05:24:52 UTC] malum
+[07-Apr-2024 05:36:09 UTC] theboss
+[07-Apr-2024 05:36:09 UTC] theboss
+[07-Apr-2024 21:06:49 UTC] theboss
+[07-Apr-2024 21:06:49 UTC] theboss
+[07-Apr-2024 22:17:03 UTC] theboss
+[07-Apr-2024 22:17:03 UTC] theboss
+[08-Apr-2024 18:03:18 UTC] theboss
+[08-Apr-2024 18:03:18 UTC] theboss
+[08-Apr-2024 18:25:50 UTC] malum
+[08-Apr-2024 18:25:50 UTC] malum
+[08-Apr-2024 18:26:06 UTC] wahh
+[08-Apr-2024 18:26:06 UTC] wahh
+[08-Apr-2024 18:26:30 UTC] wahoo
+[08-Apr-2024 18:26:30 UTC] wahoo
+[08-Apr-2024 18:26:58 UTC] malum
+[08-Apr-2024 18:26:58 UTC] malum
+[08-Apr-2024 18:27:44 UTC] theboss
+[08-Apr-2024 18:27:44 UTC] theboss
+[08-Apr-2024 18:32:34 UTC] malum
+[08-Apr-2024 18:32:34 UTC] malum

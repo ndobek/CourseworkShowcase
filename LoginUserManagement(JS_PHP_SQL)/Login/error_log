@@ -1,0 +1,34 @@
+[10-Mar-2024 20:48:42 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:48:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:49:09 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login./Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:49:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login./Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:49:11 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login./Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:49:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login./Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:06 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:15 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Persist() in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 27
+[10-Mar-2024 20:50:51 UTC] PHP Warning:  require_once(/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php): Failed to open stream: No such file or directory in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
+[10-Mar-2024 20:50:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login../Common/util.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ndobek10/public_html/danger_breakfast/cmpe2550/labs/lab_02/Login/login.php on line 3
